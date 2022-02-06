@@ -25,7 +25,7 @@ class LoginViewController: UIViewController {
             showAlert(
                 with: "Invalid login or password",
                 and: "Please, enter correct login or password"
-            )
+            )
         }
     }
     
