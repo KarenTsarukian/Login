@@ -10,13 +10,12 @@ import UIKit
 class WelcomeViewController: UIViewController {
     
     @IBOutlet var welcomeTF: UILabel!
-    @IBOutlet var logOutButton: UIButton!
     
-    var user: String!
+    var user = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeTF.text = "Welcome \(user ?? "")!"
+        welcomeTF.text = "Welcome \(user)!"
         
     }
 }
